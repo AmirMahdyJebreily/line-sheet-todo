@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    
+    body{
+        font-family: 'Vazirmatn', sans-serif;
+        @apply bg-zinc-950 w-screen h-full max-h-screen overflow-hidden overflow-y-auto text-gray-100
+    }
+}
