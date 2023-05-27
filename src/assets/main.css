@@ -4,6 +4,58 @@
 
 @layer base{
     
+* {
+    outline: none !important;
+  }
+
+  @font-face {
+    font-family: "Vazir-Thin";
+    src: url(../fonts/Vazir-Thin/Vazir-Thin-FD.eot);
+    src: url(../fonts/Vazir-Thin/Vazir-Thin-FD.eot?#iefix) format("embedded-opentype"),
+      url(../fonts/Vazir-Thin/Vazir-Thin-FD.woff) format("woff"),
+      url(../Fonts/Vazir-Thin/Vazir-Thin-FD.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Vazir-Light";
+    src: url(../Fonts/Vazir-Light/Vazir-Light.eot);
+    src: url(../Fonts/Vazir-Light/Vazir-Light.eot?#iefix) format("embedded-opentype"),
+      url(../Fonts/Vazir-Light/Vazir-Light.woff) format("woff"),
+      url(../Fonts/Vazir-Light/Vazir-Light.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Vazir-Medium";
+    src: url(../Fonts/Vazir-Medium/Vazir-Medium.eot);
+    src: url(../Fonts/Vazir-Medium/Vazir-Medium.eot?#iefix) format("embedded-opentype"),
+      url(../Fonts/Vazir-Medium/Vazir-Medium.woff) format("woff"),
+      url(../Fonts/Vazir-Medium/Vazir-Medium.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Vazir-Regular";
+    src: url(../Fonts/Vazir-Regular/Vazir-Regular-FD.eot);
+    src: url(../Fonts/Vazir-Regular/Vazir-Regular-FD.eot?#iefix) format("embedded-opentype"),
+      url(../Fonts/Vazir-Regular/Vazir-Regular-FD.woff) format("woff"),
+      url(../Fonts/Vazir-Regular/Vazir-Regular-FD.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Vazir-Black";
+    src: url(../Fonts/Vazir-Black/Vazir-Black.eot);
+    src: url(../Fonts/Vazir-Black/Vazir-Black.eot?#iefix) format("embedded-opentype"),
+      url(../Fonts/Vazir-Black/Vazir-Black.woff) format("woff"),
+      url(../Fonts/Vazir-Black/Vazir-Black.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Vazir-Bold";
+    src: url(../Fonts/Vazir-Bold/Vazir-Bold-FD.eot);
+    src: url(../Fonts/Vazir-Bold/Vazir-Bold-FD.eot?#iefix) format("embedded-opentype"),
+      url(../Fonts/Vazir-Bold/Vazir-Bold-FD.woff) format("woff"),
+      url(../Fonts/Vazir-Bold/Vazir-Bold-FD.ttf) format("truetype");
+  }
+
     body{
         font-family: 'Vazirmatn', sans-serif;
         @apply bg-zinc-950 w-screen h-full max-h-screen overflow-hidden overflow-y-auto text-gray-100
