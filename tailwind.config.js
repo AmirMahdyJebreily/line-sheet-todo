@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        "head-mono":"'Share Tech Mono', monospace",
+        "mono" : "'Ubuntu Mono', monospace"
+      }
     },
   },
   plugins: [],
